@@ -1,5 +1,5 @@
 # Colorectal-Cancer-Risk-Analysis
-Colorectal Cancer: Visualizing the Impact of Diet and Lifestyle Factors
+**Colorectal Cancer: Visualizing the Impact of Diet and Lifestyle Factors**
 
 This project explores how diet and lifestyle factors contribute to colorectal cancer (CRC) risk using visual data analysis techniques. Colorectal cancer is strongly influenced by modifiable behaviors such as dietary habits, physical activity, smoking, and overall metabolic health. By analyzing the Colorectal Cancer Dietary and Lifestyle Dataset (CRC-DLD), this study aims to uncover meaningful patterns and relationships that illustrate how everyday choices may influence disease outcomes.
 
