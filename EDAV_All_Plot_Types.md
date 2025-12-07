@@ -412,6 +412,3 @@ Color scales, ggplot2 components
 
 ---
 
-**TOTAL: 60+ PLOT TYPES ACROSS ALL CATEGORIES**
-
-Good luck on your exam! 🎓
