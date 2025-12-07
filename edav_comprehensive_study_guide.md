@@ -2706,5 +2706,4 @@ Shapley value = (1/2) × 30 + (1/2) × 40 = 35
 
 ---
 
-**GOOD LUCK ON YOUR EXAM!**
 
