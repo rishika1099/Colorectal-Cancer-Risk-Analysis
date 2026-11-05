@@ -1,0 +1,53 @@
+project:
+  type: book
+  output-dir: docs
+
+execute:
+  echo: true
+  warning: false
+  message: false
+
+book:
+  title: "Colorectal Cancer Risk Analysis"
+  author:
+    - Rishika Mamidibathula (rm4318)
+    - Kshamaa Suresh (ks4423)
+  repo-url: https://github.com/KshamaaS/colorectal-cancer-analysis
+  date: today
+  page-footer:
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    
+    - part: "Data Exploration"
+      chapters:
+        - text: "Exploratory Data Analysis"
+          href: CRC_EDA.qmd
+        - text: "Numerical Variable Analysis"
+          href: CRC_Numerical_Variable_Analysis.qmd
+        - text: "Categorical Variable Analysis"
+          href: CRC_Categorical_Variable_Analysis.qmd
+        - text: "Interactive Plot Analysis"
+          href: CRC_Variable_Analysis.qmd
+    
+    - part: "Advanced Analysis"
+      chapters:
+        - text: "Interpretable Machine Learning"
+          href: CRC_IML_Analysis.qmd
+    
+    - part: "Interactive Tools"
+      chapters:
+        - text: "Interactive Parallel Coordinates Plot"
+          href: interactive_parallel_coords.qmd
+        - text: "Risk Predictor Model"
+          href: risk_prediction.qmd
+    
+    - conclusion.qmd
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show code"
+    number-sections: false 
